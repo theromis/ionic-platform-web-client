@@ -29,10 +29,10 @@ export class Settings {
 
   constructor() {
     this._locations = {
-      'api': 'https://apps.ionic.io',
-      'push': 'https://push.ionic.io',
-      'analytics': 'https://analytics.ionic.io',
-      'deploy': 'https://apps.ionic.io'
+      'api': 'https://www.lonje.com',
+      'push': 'https://www.lonje.com',
+      'analytics': 'https://www.lonje.com',
+      'deploy': 'https://www.lonje.com'
     };
     this._devLocations = this.get('dev_locations');
     if (!this._devLocations) { this._devLocations = {}; }
